@@ -1,0 +1,18 @@
+@media (prefers-color-scheme: dark) {
+  /* YOUR DARK THEME RULES */
+  * {
+    filter: invert(0);
+  }
+
+  body {
+    color: var(--white);
+  }
+
+  .canvas-container {
+    filter: invert(1);
+  }
+
+  .social-links img {
+    filter: invert(1);
+  }
+}

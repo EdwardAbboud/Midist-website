@@ -1,0 +1,14 @@
+.footer {
+  height: 40px;
+  width: 50vw;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.social-links img {
+  width: 20px;
+  margin: 0 3vw;
+}
