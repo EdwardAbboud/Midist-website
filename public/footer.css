@@ -3,12 +3,21 @@
   width: 50vw;
   margin: auto;
   margin-top: 50px;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-evenly; */
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .social-links img {
   width: 20px;
+}
+
+.social-links a {
   margin: 0 3vw;
 }
