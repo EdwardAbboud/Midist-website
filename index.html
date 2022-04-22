@@ -17,16 +17,12 @@
     <link rel="stylesheet" href="./public/darktheme.css" />
     <link rel="stylesheet" href="./public/navbar.css" />
     <link rel="stylesheet" href="./public/mediaqueries.css" />
-    <link rel="stylesheet" href="./public/home-section.css" />
     <link rel="stylesheet" href="./public/footer.css" />
-    <link rel="stylesheet" href="./public/music-section.css" />
+    <link rel="stylesheet" href="./public/sections.css">
   </head>
+
   <body>
     <header>
-      <div class="canvas-container">
-        <canvas id="myCanvas"></canvas>
-      </div>
-    </header>
     <nav>
       <div class="topnav" id="navbar">
         <a href="#home">Home</a>
@@ -35,16 +31,18 @@
         <a href="#photos">Photos</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunctionOne()">
-          <i class="fa fa-bars"></i>
-        </a>
       </div>
     </nav>
+    </header>
+
+    <div class="canvas-container">
+      <canvas id="myCanvas"></canvas>
+    </div>
 
     <!-- Home Section -->
     <main>
       <div class="home-section">
-        <h2 id="home">H O M E</h2>
+        <h2 id="home-headline">Home</h2>
         <p id="home-description">
           "Midist is a Lebanese producer intrigued by sound of all waveforms and
           frequencies. As a former drummer in psychedelic rock and metal in
@@ -72,20 +70,6 @@
             allow="autoplay"
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/351536074&color=%23544440&auto_play=true&hide_related=true&show_comments=true&show_user=true&show_reposts=true&show_teaser=false&visual=true"
           ></iframe>
-          <div
-            style="
-              font-size: 10px;
-              color: #cccccc;
-              line-break: anywhere;
-              word-break: normal;
-              overflow: hidden;
-              white-space: nowrap;
-              text-overflow: ellipsis;
-              font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
-                Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
-              font-weight: 100;
-            "
-          ></div>
         </div>
         <div id="monthly-playlist">
           <h3>Updated Playlists</h3>
@@ -125,7 +109,7 @@
         </div>
       </div>
       <div class="music-section">
-        <h2 id="music">M U S I C</h2>
+        <h2 id="music-headline">Music</h2>
       </div>
     </main>
     <!-- Footer section-->
