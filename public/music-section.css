@@ -4,3 +4,39 @@
   background-color: rgba(0, 0, 0, 0.4);
   margin-top: 100px;
 }
+
+.song-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
+.song {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid transparent;
+}
+
+.song:hover,
+.song:hover {
+  border: 1px solid white;
+}
+
+.song img {
+  width: 15vw;
+  padding: 5px;
+}
+
+.artist-name {
+  font-size: 0.7rem;
+}
+
+.song-name {
+  font-size: 0.9rem;
+}
