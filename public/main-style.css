@@ -9,39 +9,37 @@
   --light-grey: #828282;
   font-family: "Vollkorn", sans-serif;
   font-size: 18px;
-  filter: invert(1);
+  color: var(--white);
 }
 
 body {
-  width: 98vw;
-  margin: auto;
-  padding: 10px;
   background-image: url("./assets/images/midist.jpg");
   background-color: black;
   background-repeat: no-repeat;
-  background-size: 50vw;
+  background-size: contain;
   background-position: bottom right;
   background-attachment: fixed;
 }
 
-/* .image-container {
-  width: 95vw;
+#home-headline, #music-headline {
+  text-transform: uppercase;
+  letter-spacing: 12px;
 }
 
-.image-container img {
-  position: fixed;
-  right: 0;
-  top: 0;
-  width: 50vw;
-} */
+.canvas-container {
+  display: flex;
+  justify-content: center;
+}
+
+#myCanvas {
+  filter: invert(1);
+}
 
 h2 {
   text-align: center;
   font-size: 2.5rem;
-  padding: 60px 0px 50px;
-  background-image: url(./assets/images/midist-banner.jpg);
-  background-size: 125%;
-  background-position: top;
+  padding: 2rem 3rem;
+  background-color: #333;
   margin-bottom: 30px;
 }
 
@@ -62,6 +60,10 @@ h3 {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: var(--dark-grey);
+}
+
+::-webkit-scrollbar {
+  background-color: var(--white);
 }
 
 /* Handle on hover */
