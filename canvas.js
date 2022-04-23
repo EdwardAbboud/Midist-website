@@ -2,14 +2,19 @@ var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 var mask;
 
-var pointCount = 900;
+var pointCount = 400;
 var str = "M I D I S T";
 var fontStr = "bold 128pt Helvetica, Helvetica, Arial, sans-serif";
+
+window.addEventListener("scroll", () => {
+  changePointsCount();
+  return pointCount;
+});
 
 ctx.font = fontStr;
 ctx.textAlign = "center";
 c.width = ctx.measureText(str).width;
-c.height = 200; // Set to font size
+c.height = 128; // Set to font size
 
 var whitePixels = [];
 var points = [];

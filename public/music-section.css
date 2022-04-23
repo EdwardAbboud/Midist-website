@@ -17,26 +17,43 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: fit-content;
+  width: 13vw;
   padding: 10px;
   text-align: center;
   border: 1px solid transparent;
 }
 
-.song:hover,
-.song:hover {
+/* .song:hover {
   border: 1px solid white;
-}
+} */
 
 .song img {
-  width: 15vw;
-  padding: 5px;
+  width: 10vw;
+  margin: 10px 0px;
+  border: 1px solid transparent;
+}
+
+.song img:hover {
+  border: 1px solid white;
 }
 
 .artist-name {
   font-size: 0.7rem;
+  margin-bottom: 10px;
 }
 
 .song-name {
   font-size: 0.9rem;
+}
+
+.song img:hover,
+.artist-name:hover,
+.song-name:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.song a {
+  text-decoration: none;
+  color: white;
 }
