@@ -4,3 +4,56 @@
   background-color: rgba(0, 0, 0, 0.4);
   margin-top: 100px;
 }
+
+.song-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
+.song {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 13vw;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid transparent;
+}
+
+/* .song:hover {
+  border: 1px solid white;
+} */
+
+.song img {
+  width: 10vw;
+  margin: 10px 0px;
+  border: 1px solid transparent;
+}
+
+.song img:hover {
+  border: 1px solid white;
+}
+
+.artist-name {
+  font-size: 0.7rem;
+  margin-bottom: 10px;
+}
+
+.song-name {
+  font-size: 0.9rem;
+}
+
+.song img:hover,
+.artist-name:hover,
+.song-name:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.song a {
+  text-decoration: none;
+  color: white;
+}
