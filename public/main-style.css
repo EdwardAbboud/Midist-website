@@ -26,7 +26,7 @@ body {
   letter-spacing: 12px;
 }
 
-.canvas-container {
+#canvas-container {
   display: flex;
   justify-content: center;
 }
