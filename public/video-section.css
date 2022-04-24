@@ -1,0 +1,25 @@
+.video-section {
+  width: 40vw;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-top: 100px;
+}
+
+.youtube-players {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.studio150 {
+  width: 45%;
+}
+
+.ya-malikan {
+  width: 90%;
+  padding: 20px;
+}
+
+.youtube-players {
+}

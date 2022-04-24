@@ -7,7 +7,7 @@
   --dark-grey: #454545;
   --semi-grey: #5e5e5e;
   --light-grey: #828282;
-  font-family: "Vollkorn", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   filter: invert(1);
 }
@@ -43,6 +43,8 @@ h2 {
   background-size: 125%;
   background-position: top;
   margin-bottom: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
 }
 
 h3 {
