@@ -1,4 +1,4 @@
-.video-section {
+.section {
   width: 40vw;
   margin: auto;
   background-color: rgba(0, 0, 0, 0.4);
@@ -12,14 +12,7 @@
   align-items: center;
 }
 
-.studio150 {
-  width: 45%;
-}
-
-.ya-malikan {
-  width: 90%;
-  padding: 20px;
-}
-
-.youtube-players {
+.video {
+  width: 100%;
+  margin-top: 5vh;
 }

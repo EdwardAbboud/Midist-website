@@ -24,17 +24,6 @@ body {
   background-attachment: fixed;
 }
 
-/* .image-container {
-  width: 95vw;
-}
-
-.image-container img {
-  position: fixed;
-  right: 0;
-  top: 0;
-  width: 50vw;
-} */
-
 h2 {
   text-align: center;
   font-size: 2.5rem;
@@ -50,6 +39,14 @@ h2 {
 h3 {
   font-size: 1.5rem;
   padding: 20px 0px;
+}
+
+/* Main sections */
+.section {
+  width: 40vw;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-top: 100px;
 }
 
 ::-webkit-scrollbar {
