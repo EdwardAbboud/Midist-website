@@ -26,11 +26,7 @@
 
   #navbar {
     display: none;
-  }
-
-  nav {
     width: 100%;
-    display: none;
   }
 
   .song {
@@ -73,9 +69,6 @@
 
   #navbar {
     background-color: transparent;
-  }
-
-  .topnav {
     font-size: 1rem;
   }
 
@@ -115,7 +108,11 @@
   }
 
   nav {
-    margin-top: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 10px;
+    background-color: black !important;
   }
 }
 
