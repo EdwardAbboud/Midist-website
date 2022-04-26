@@ -29,3 +29,5 @@ function closeNav() {
   document.getElementById("myNav").style.height = "0";
   // document.querySelector(".mobile-nav").style.height = "0%";
 }
+
+window.onload(closeNav());
