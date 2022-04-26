@@ -2,7 +2,14 @@ const states = ["0", "100vh"];
 let state = false;
 
 /**
+ * Logic for main navbar. 
+ * @namespace Navbar
+ */
+
+
+/**
  * Opens Nav-Overlay.
+ * @memberof Navbar
  * @returns {void} Changes style of DOM-Element (navbar)
  */
 function openNav() {
@@ -12,6 +19,7 @@ function openNav() {
 
 /**
  * Closes Nav-Overlay.
+ * @memberof Navbar
  * @returns {void} Changes style of DOM-Element (navbar)
  */
 function closeNav() {
@@ -21,6 +29,7 @@ function closeNav() {
 
 /**
  * Toggles Nav-Overlay
+ * @memberof Navbar
  * @returns {void} Toggles style of DOM-Element (navbar)
  */
 function toggleNav() {
