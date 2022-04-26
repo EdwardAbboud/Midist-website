@@ -18,10 +18,14 @@ function myFunction() {
   }
 }
 
-function myFunctionOne() {
-  if (navbar.className === "topnav") {
-    navbar.className += " responsive";
-  } else {
-    navbar.className = "topnav";
-  }
+/* Open */
+function openNav() {
+  document.getElementById("myNav").style.height = "100vh";
+  // document.querySelector(".mobile-nav").style.height = "700px";
+}
+
+/* Close */
+function closeNav() {
+  document.getElementById("myNav").style.height = "0";
+  // document.querySelector(".mobile-nav").style.height = "0%";
 }

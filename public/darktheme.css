@@ -33,8 +33,24 @@
     background-size: 50vw;
   }
 
+  @media screen and (max-width: 400px) {
+    body {
+      background-size: 150vw;
+      background-position: left bottom;
+    }
+  }
+
   .canvas-container {
     filter: invert(1);
+  }
+
+  .nav-loader {
+    background-color: black !important;
+  }
+
+  h1,
+  .nav-loader i {
+    color: var(--white);
   }
 
   h2 {
@@ -47,7 +63,7 @@
   }
 
   .section {
-    background-color: rgba(0, 0, 0, 0.4) !important;
+    background-color: rgba(0, 0, 0, 0.6) !important;
     color: var(--white);
   }
 
