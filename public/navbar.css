@@ -27,10 +27,6 @@ header {
   margin-bottom: 10px;
 }
 
-.fa-bars {
-  cursor: pointer;
-}
-
 /* Navbar links */
 #navbar a {
   color: var(--dark-grey);
@@ -127,6 +123,7 @@ header {
   z-index: 10;
   margin-top: 10px;
   padding: 10px;
+  cursor: pointer;
 }
 
 .nav-loader i {
