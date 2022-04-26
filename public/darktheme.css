@@ -1,18 +1,90 @@
 @media (prefers-color-scheme: dark) {
   /* YOUR DARK THEME RULES */
   * {
-    filter: invert(0);
+    /* filter: invert(0); */
+  }
+
+  header {
+    background-color: transparent !important;
+  }
+
+  nav {
+    background-color: rgba(255, 255, 255, 0) !important;
+  }
+
+  #navbar {
+    background-color: transparent !important;
+  }
+
+  #navbar a {
+    color: #f2f2f2 !important;
+  }
+
+  #navbar a:hover,
+  #navbar a:focus {
+    color: var(--blue) !important;
+    transition: 0s;
   }
 
   body {
     color: var(--white);
+    background-image: url("./assets/images/midist.jpg");
+    background-color: black;
+    background-size: 50vw;
   }
 
   .canvas-container {
     filter: invert(1);
   }
 
+  h2 {
+    background-image: url(./assets/images/midist-banner.jpg);
+    color: var(--white);
+  }
+
+  h3 {
+    color: var(--white);
+  }
+
+  .section {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    color: var(--white);
+  }
+
+  .artist-name,
+  .song-name {
+    color: var(--white) !important;
+  }
+
+  .song img:hover {
+    border: 1px solid white !important;
+  }
+
+  .footer {
+    background-color: transparent !important;
+    width: 50vw;
+  }
+
+  .container {
+    background-color: transparent;
+  }
+
   .social-links img {
-    filter: invert(1);
+    filter: invert(1) !important;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--dark-grey);
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--blue);
   }
 }
