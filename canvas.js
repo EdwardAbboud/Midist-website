@@ -2,7 +2,7 @@ var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 var mask;
 
-var pointCount = 00;
+var pointCount = 300;
 var str = "M I D I S T";
 var fontStr = "bold 128pt Helvetica, Helvetica, Arial, sans-serif";
 
