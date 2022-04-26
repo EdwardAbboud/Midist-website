@@ -38,11 +38,26 @@
         <a href="#photos">Photos</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunctionOne()">
-          <i class="fa fa-bars"></i>
-        </a>
       </div>
     </nav>
+       <!-- Mobile nav -->
+      <div class="nav-loader" onclick=openNav()>
+        <h1>Midist</h1>
+        <i class="fa fa-bars"></i>
+      </div>
+      <div id="myNav" class="overlay">      
+        <!-- Overlay content -->
+        <div class="overlay-content">
+          <a href="#home" onclick="closeNav()">H o m e</a>
+          <a href="#music" onclick="closeNav()">M u s i c</a>
+          <a href="#videos" onclick="closeNav()">V i d e o s</a>
+          <a href="#photos" onclick="closeNav()">P h o t o s</a>
+          <a href="#about" onclick="closeNav()">A b o u t</a>
+          <a href="#contact" onclick="closeNav()">C o n t a c t</a>
+        </div>
+      <!-- Use any element to open/show the overlay navigation menu -->
+      
+    </div>
 
     <!-- Home Section -->
     <main>
@@ -135,7 +150,7 @@
             <a
               target="_blank"
               href="https://midist.bandcamp.com/track/washed-away"
-              ><img
+              ><img class="album-covers"
                 src="./public/assets/images/music-covers/washed-away.png"
                 alt="washed away cover"
             />
@@ -148,9 +163,9 @@
             <a
               target="_blank"
               href="https://midistwasim.bandcamp.com/track/sun-of-love-ft-azubike-onwuka"
-              ><img
+              ><img class="album-covers"
                 src="./public/assets/images/music-covers/sun-of-love.png"
-                alt="washed away cover"
+                alt="sun of love cover"
             />
             <a target="_blank"
               href="https://midistwasim.bandcamp.com/track/sun-of-love-ft-azubike-onwuka"><h4 class="song-name">Sun of Love</h4></a>
@@ -161,9 +176,9 @@
             <a
               target="_blank"
               href="https://midistwasim.bandcamp.com/track/ahibanak-2"
-              ><img
+              ><img class="album-covers"
                 src="./public/assets/images/music-covers/ahibanak.jpg"
-                alt="washed away cover"
+                alt="ahibanak cover"
             />
             <a target="_blank"
               href="https://midistwasim.bandcamp.com/track/ahibanak-2"><h4 class="song-name">Ahibanak</h4></a>
