@@ -64,6 +64,10 @@
   .nav-loader {
     display: none;
   }
+
+  .overlay {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 701px) {
