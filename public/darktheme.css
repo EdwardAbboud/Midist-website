@@ -35,8 +35,8 @@
 
   @media screen and (max-width: 400px) {
     body {
-      background-size: 150vw;
-      background-position: left bottom;
+      background-size: 150vw !important;
+      background-position: left bottom !important;
     }
   }
 
