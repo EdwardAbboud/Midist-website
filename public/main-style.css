@@ -16,7 +16,7 @@ body {
   width: 98vw;
   margin: auto;
   padding: 10px;
-  background-image: url("./assets/images/_MG_0502X.jpg");
+  background-image: url("./assets/images/IMG_0502X.jpg");
   background-color: #e1e4ed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -54,7 +54,7 @@ h3 {
 .section {
   width: 40vw;
   margin: auto;
-  background-color: rgba(255, 255, 255, 0.9) !important;
+  background-color: rgba(255, 255, 255, 0.7) !important;
   margin-top: 100px;
   color: var(--dark-grey);
   padding: 10px;

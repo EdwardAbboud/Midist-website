@@ -13,7 +13,7 @@ textarea {
 }
 
 .submit {
-  background-color: transparent;
+  background-color: var(--dark-grey);
   color: white;
   padding: 12px 20px;
   border: 1px solid white;
@@ -25,7 +25,7 @@ textarea {
 
 .submit:hover {
   background-color: var(--blue);
-  border: 1px solid black;
+  border: 1px solid var(--blue);
   transition: 0.3s;
 }
 
