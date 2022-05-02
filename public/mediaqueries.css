@@ -15,6 +15,13 @@
   }
 }
 
+@media screen and (max-width: 400px) and (prefers-color-scheme: dark) {
+  body {
+    background-size: 150vw !important;
+    background-position: left bottom !important;
+  }
+}
+
 @media screen and (max-height: 450px) {
   .overlay a {
     font-size: 20px;
