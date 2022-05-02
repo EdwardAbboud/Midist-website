@@ -40,7 +40,7 @@
     }
   }
 
-  .canvas-container {
+  #canvas-container {
     filter: invert(1);
   }
 
