@@ -1,0 +1,23 @@
+{
+  "name": "midist-website",
+  "version": "1.0.0",
+  "description": "A deployed version of the page can be viewed [here](https://edwardabboud.github.io/Midist-website/)",
+  "main": "canvas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdwardAbboud/Midist-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdwardAbboud/Midist-website/issues"
+  },
+  "homepage": "https://github.com/EdwardAbboud/Midist-website#readme",
+  "dependencies": {
+    "vanilla-lazyload": "^17.8.1"
+  }
+}
